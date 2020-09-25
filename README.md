@@ -8,8 +8,8 @@ latest kotlin language including **coroutine**. The **whois** info is obtained w
 ![Code Size](https://img.shields.io/github/languages/code-size/arhanashik/DomainInfo)
 ![License](https://img.shields.io/github/license/arhanashik/DomainInfo)
 
-## Preview
-|Preview - Input|Preview - Result|
+## Preview - Sample app
+|Input|Result|
 |---|---|
 |<img src="app/sampledata/who_is_input.png" alt="Screen Shot" width="150">|<img src="app/sampledata/who_is_result.png" alt="Screen Shot" width="150">|
 
