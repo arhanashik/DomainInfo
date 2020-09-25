@@ -12,21 +12,22 @@ object BuildPlugins {
     const val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     const val androidApplication = "com.android.application"
     const val androidLibrary = "com.android.library"
-    const val kotlinAndroid = "kotlin-android"
-    const val kotlinAndroidExtensions = "kotlin-android-extensions"
+    const val kotlinAndroid = "android"
+    const val kotlinExtensions = "android.extensions"
+    const val kapt = "kapt"
 }
 
 object Config {
     const val applicationId = "com.workfort.domaininfoexample"
     object AndroidSdk {
         const val min = 18
-        const val compile = 28
+        const val compile = 29
         const val target = compile
     }
 
     object Version {
-        const val code = 6
-        const val name = "1.1.4"
+        const val code = 7
+        const val name = "1.1.5"
     }
 
     const val androidJUnitRunner = "androidx.test.runner.AndroidJUnitRunner"

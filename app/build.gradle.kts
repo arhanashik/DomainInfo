@@ -1,8 +1,8 @@
 plugins {
     id(BuildPlugins.androidApplication)
-    id(BuildPlugins.kotlinAndroid)
-    id(BuildPlugins.kotlinAndroidExtensions)
-    `maven-publish`
+    kotlin(BuildPlugins.kotlinAndroid)
+    kotlin(BuildPlugins.kotlinExtensions)
+    kotlin(BuildPlugins.kapt)
 }
 
 android {
