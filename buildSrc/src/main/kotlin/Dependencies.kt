@@ -25,8 +25,8 @@ object Config {
     }
 
     object Version {
-        const val code = 5
-        const val name = "1.1.3"
+        const val code = 6
+        const val name = "1.1.4"
     }
 
     const val androidJUnitRunner = "androidx.test.runner.AndroidJUnitRunner"
