@@ -1,8 +1,8 @@
 # DomainInfo
 
-An android library to get domain info (whois) from any android application. This library uses the 
-latest kotlin language including **coroutine**. The **whois** info is obtained with 
-**org.apache.commons.net.whois.WhoisClient**
+An android library to get domain info (whois) from any android application. The **whois** info is 
+obtained with **org.apache.commons.net.whois.WhoisClient** This library uses the latest kotlin 
+language including **coroutine**, **kotlin-dsl**.
 
 [![Latest version](https://jitpack.io/v/arhanashik/DomainInfo.svg)](https://jitpack.io/#arhanashik/DomainInfo)
 ![Code Size](https://img.shields.io/github/languages/code-size/arhanashik/DomainInfo)
@@ -15,17 +15,16 @@ latest kotlin language including **coroutine**. The **whois** info is obtained w
 
 ## Setup
 **Step 1:** Add it in your root build.gradle at the end of repositories:
-```
+```groovy
 allprojects {
     repositories {
-        ...
         maven { url 'https://jitpack.io' }
     }
 }
 ```
 Add the dependency:
-```
-implementation 'com.github.arhanashik:DomainInfo:1.1.0'
+```groovy
+implementation 'com.github.arhanashik:DomainInfo:1.1.1'
 ```
 That's it. You are good to go!
 
@@ -63,6 +62,11 @@ For more information please check the sample project.
 The library is free to use. If you wish to improve it, please create a separate branch and make pull request.
 
 ## Changelog:
+##1.1.1
+------------
+- added **kotlin-dsl**
+- converted gradle with kotlin script
+
 ### 1.1.0
 ------------
 - WHoIsClient added as jar lib
