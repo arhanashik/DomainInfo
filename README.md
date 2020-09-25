@@ -63,6 +63,10 @@ For more information please check the sample project.
 The library is free to use. If you wish to improve it, please create a separate branch and make pull request.
 
 ## Changelog:
+### 1.1.0
+------------
+- WHoIsClient added as jar lib
+
 ### 1.0.0
 ------------
 - DomainInfo using WhoIsClient.
