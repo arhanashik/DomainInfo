@@ -2,7 +2,7 @@ plugins {
     id(BuildPlugins.androidApplication)
     id(BuildPlugins.kotlinAndroid)
     id(BuildPlugins.kotlinAndroidExtensions)
-    kotlin(BuildPlugins.kapt)
+    `maven-publish`
 }
 
 android {
