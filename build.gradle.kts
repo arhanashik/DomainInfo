@@ -15,6 +15,8 @@ buildscript {
 }
 
 allprojects {
+    apply(plugin = "maven-publish")
+
     repositories {
         google()
         jcenter()
