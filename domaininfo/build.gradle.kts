@@ -5,6 +5,11 @@ plugins {
     kotlin(BuildPlugins.kapt)
 }
 
+apply(plugin = "maven")
+
+group = "com.workfort"
+version = Config.Version.name
+
 android {
     compileSdkVersion(Config.AndroidSdk.compile)
     buildToolsVersion(BuildPlugins.Versions.buildToolsVersion)

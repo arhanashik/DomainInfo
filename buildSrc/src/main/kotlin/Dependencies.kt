@@ -9,25 +9,25 @@ object BuildPlugins {
     }
 
     const val androidGradlePlugin = "com.android.tools.build:gradle:${Versions.gradlePluginVersion}"
-    const val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
-    const val androidApplication = "com.android.application"
-    const val androidLibrary = "com.android.library"
-    const val kotlinAndroid = "android"
-    const val kotlinExtensions = "android.extensions"
-    const val kapt = "kapt"
+    const val kotlinGradlePlugin  = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    const val androidApplication  = "com.android.application"
+    const val androidLibrary      = "com.android.library"
+    const val kotlinAndroid       = "android"
+    const val kotlinExtensions    = "android.extensions"
+    const val kapt                = "kapt"
 }
 
 object Config {
     const val applicationId = "com.workfort.domaininfoexample"
     object AndroidSdk {
-        const val min = 18
+        const val min     = 18
         const val compile = 29
-        const val target = compile
+        const val target  = compile
     }
 
     object Version {
-        const val code = 9
-        const val name = "1.1.7"
+        const val code = 10
+        const val name = "1.1.8"
     }
 
     const val androidJUnitRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -35,12 +35,12 @@ object Config {
 
 object Libraries {
     private object Versions {
-        const val jetpack = "1.2.0"
-        const val constraintLayout = "2.0.1"
-        const val ktx = "1.3.1"
-        const val material = "1.3.0-alpha02"
+        const val jetpack           = "1.2.0"
+        const val constraintLayout  = "2.0.1"
+        const val ktx               = "1.3.1"
+        const val material          = "1.3.0-alpha02"
 
-        const val coroutinesCore = "1.3.7"
+        const val coroutinesCore    = "1.3.7"
         const val coroutinesAndroid = "1.3.6"
     }
 
@@ -56,9 +56,9 @@ object Libraries {
 
 object TestLibraries {
     private object Versions {
-        const val junit4 = "4.12"
+        const val junit4     = "4.12"
         const val testRunner = "1.1.2"
-        const val espresso = "3.3.0"
+        const val espresso   = "3.3.0"
     }
     const val junit4     = "junit:junit:${Versions.junit4}"
     const val testRunner = "androidx.test:runner:${Versions.testRunner}"
