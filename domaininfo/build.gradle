@@ -51,7 +51,7 @@ dependencies {
 
 //module
 dependencies {
-    implementation project(':commons-net-3.7')
+    implementation files('libs/commons-net-3.7.jar')
 }
 
 //test

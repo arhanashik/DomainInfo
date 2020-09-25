@@ -1,4 +1,4 @@
-package com.example.whois
+package com.example.domaininfo
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

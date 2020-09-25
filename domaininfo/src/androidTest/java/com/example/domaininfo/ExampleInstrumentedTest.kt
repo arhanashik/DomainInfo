@@ -1,4 +1,4 @@
-package com.example.whois
+package com.example.domaininfo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,3 @@
-include ':commons-net-3.7'
 include ':domaininfo'
 include ':app'
 rootProject.name = "DomainInfoExample"

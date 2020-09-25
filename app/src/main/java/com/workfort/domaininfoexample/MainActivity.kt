@@ -4,9 +4,9 @@ import android.os.Bundle
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.whois.DomainInfoCallback
-import com.example.whois.Result
-import com.example.whois.DomainInfo
+import com.example.domaininfo.DomainInfoCallback
+import com.example.domaininfo.Result
+import com.example.domaininfo.DomainInfo
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
