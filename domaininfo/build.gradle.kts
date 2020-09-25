@@ -6,6 +6,7 @@ plugins {
 }
 
 apply(plugin = "maven")
+apply(plugin = "maven-publish")
 
 group = "com.workfort"
 version = Config.Version.name
