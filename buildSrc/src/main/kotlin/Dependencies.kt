@@ -14,7 +14,7 @@ object BuildPlugins {
     const val androidLibrary = "com.android.library"
     const val kotlinAndroid = "kotlin-android"
     const val kotlinAndroidExtensions = "kotlin-android-extensions"
-
+    const val kapt = "kapt"
 }
 
 object Config {
@@ -26,8 +26,8 @@ object Config {
     }
 
     object Version {
-        const val code = 3
-        const val name = "1.1.1"
+        const val code = 4
+        const val name = "1.1.2"
     }
 
     const val androidJUnitRunner = "androidx.test.runner.AndroidJUnitRunner"

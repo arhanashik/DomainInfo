@@ -1,3 +1,2 @@
-include ':domaininfo'
-include ':app'
+include(":app", ":domaininfo")
 rootProject.name = "DomainInfoExample"

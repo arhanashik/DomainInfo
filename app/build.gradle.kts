@@ -2,7 +2,7 @@ plugins {
     id(BuildPlugins.androidApplication)
     id(BuildPlugins.kotlinAndroid)
     id(BuildPlugins.kotlinAndroidExtensions)
-    kotlin("kapt")
+    kotlin(BuildPlugins.kapt)
 }
 
 android {
@@ -31,7 +31,7 @@ android {
 }
 
 dependencies {
-//    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.arr"))))
 }
 
 //kotlin
