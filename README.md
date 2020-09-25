@@ -25,7 +25,7 @@ allprojects {
 ```
 Add the dependency:
 ```
-implementation 'com.github.arhanashik:DomainInfo:1.0.0'
+implementation 'com.github.arhanashik:DomainInfo:1.1.0'
 ```
 That's it. You are good to go!
 
