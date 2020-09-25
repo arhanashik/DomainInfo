@@ -12,17 +12,27 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/txt_new_url"
+        android:text="@string/txt_new_domain"
         android:textSize="20sp"
         android:textColor="@android:color/black"
         android:textStyle="bold"/>
 
-    <EditText
-        android:id="@+id/etUrl"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDomain"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
         android:layout_marginTop="10dp"
-        android:hint="@string/hint_insert_url" />
+        app:endIconMode="clear_text"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDomain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hint_insert_domain" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

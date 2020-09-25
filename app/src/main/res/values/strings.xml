@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">LinkPreviewExample</string>
-    <string name="hint_insert_url">Insert a valid url</string>
-    <string name="txt_new_url">New Url</string>
+    <string name="app_name">WhoIsExample</string>
+    <string name="hint_insert_domain">e.g. google.com</string>
+    <string name="txt_new_domain">Insert Domain</string>
+    <string name="hint_result">Insert a domain by clicking the button at the bottom of the screen to see the result here</string>
 </resources>
