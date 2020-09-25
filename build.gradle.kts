@@ -18,12 +18,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven {
-            url = uri("https://plugins.gradle.org/m2/")
-        }
-        maven {
-            url = uri("https://maven.google.com")
-        }
+        mavenCentral()
         maven { url = uri("https://jitpack.io") }
     }
 }
